@@ -1,0 +1,19 @@
+Installation:
+Pull the project from git to a local folder: https://github.com/Dandusshh/FinalQAProject.git
+Open the project in PyCharm
+
+or Open PyCharm and open a project from VCS https://github.com/Dandusshh/FinalQAProject.git
+
+If required need to create a new environment (venv). On windows: py -m venv venv
+Activate venv: .\venv\Scripts\activate
+If error of powershell that script is "not digitally signed" then run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+Install dependencies: pip install -r 'requirements.txt'
+
+If PyCharm requires to configure python interpreter then click on the gear and select the existing environment "venv"
+
+Running:
+To run selenium tests select the test_selenium.py, right click on it and select Run python tests. Expected 2 success 1 fail
+To run api tests select the test_api.py, right click on it and select Run python tests. Expected 2 success
+
+To run all the tests together right click the project name and select "Run Python tests..."
